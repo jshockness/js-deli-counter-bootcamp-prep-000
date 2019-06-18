@@ -1,7 +1,4 @@
-function takeANumber(line, name) {
-  var katzDeli = []
-  var otherDeli = ["Steven", "Blake", "Avi", "Grace"] 
-  
+function takeANumber(line, customername) {
   line.push(name)
   
   return "Welcome, ${name}. You are number ${line.length} in line"
