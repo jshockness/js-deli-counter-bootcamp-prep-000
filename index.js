@@ -14,4 +14,6 @@ function nowServing(line) {
   }
 }
 
-function currentLine(line)
+function currentLine(line) {
+  if (line.length)
+}
