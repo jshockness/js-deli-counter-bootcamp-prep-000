@@ -15,6 +15,10 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
+  if (line.length) {
+    return "The line is currently empty."
+  }
+  
   var numberAndNames = []
   
   for(i = 0, l = line.length; i < l; i++) {
@@ -23,7 +27,4 @@ function currentLine(line) {
     return `The line is currently: ${numberAndNames.join(',')}`
   }
   
-  if (line.length) {
-    return "The line is currently empty."
-  }
 }
