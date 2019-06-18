@@ -15,7 +15,8 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  var numberAndNames
+  var numberAndNames = []
+  
   
   if (line.length) {
     return "The line is currently empty."
