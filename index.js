@@ -18,7 +18,7 @@ function currentLine(line) {
   var numberAndNames = []
   
   for(i = 0, l = line.length; i < l; i++) {
-    numberAndNames.push(`${i + 1)
+    numberAndNames.push(`${i + 1})
   }
   
   if (line.length) {
