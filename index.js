@@ -1,6 +1,6 @@
 function takeANumber(line, name) {
   var katzDeli = []
-  var otherDeli = [] 
+  var otherDeli = ["Steven", "Blake", "Avi", "Grace"] 
   
   line.push(name)
   
