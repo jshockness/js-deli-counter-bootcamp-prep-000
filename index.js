@@ -7,4 +7,4 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  return 
+  return "Currently serving "
