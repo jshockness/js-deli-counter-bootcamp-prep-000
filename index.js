@@ -9,4 +9,6 @@ function takeANumber(line, name) {
 function nowServing(line) {
   return `Currently serving ${line.shift()}.`
   
-  if (line.length)
+  if (line.length) {
+    return `
+  }
