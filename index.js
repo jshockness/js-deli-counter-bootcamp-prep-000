@@ -4,16 +4,6 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
-var n = 0
-
-function takeANumber(line) {
-  
-  n++
-  line.push(n)
-
-  return `Welcome you have ticket number ${n}.`
-}
-
 
 function nowServing(line) {
   if (line.length === 0) {
