@@ -20,7 +20,7 @@ function currentLine(line) {
   for(i = 0, l = line.length; i < l; i++) {
     numberAndNames.push(`${i + 1}. ${line[i]}`)
     
-    return
+    return `The line is currently 
   }
   
   if (line.length) {
